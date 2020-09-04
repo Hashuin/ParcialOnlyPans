@@ -16,19 +16,25 @@ using System.Windows.Shapes;
 namespace OnlyPans
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Lógica de interacción para Admin.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Admin : Page
     {
-        public MainWindow()
+        public Admin()
         {
             InitializeComponent();
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            mainFrame.NavigationService.Navigate(new UserControl1());
-            
+            MessageBox.Show("Bienvenid@ Administrador");
+        }
+
+        private void LstPrecio_Loaded(object sender, RoutedEventArgs e)
+        {
+            lstPrecio.Items.Add("Pan Aliñado = 1000");
+            lstPrecio.Items.Add("Pan no Aliñado= 500");
+            lstPrecio.Items.Add("Pan Especial = 2000");
         }
     }
 }
