@@ -44,5 +44,6 @@ namespace OnlyPans
             NavigationService.Navigate(new UserControl1());
         }
 
+        
     }
 }

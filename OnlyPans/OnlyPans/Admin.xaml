@@ -27,5 +27,6 @@
         <ListBox Name="vTotal" HorizontalAlignment="Left" Height="100" Margin="551,141,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Name="btnLogout" Content="Cerrar Sesión" HorizontalAlignment="Left" Margin="335,378,0,0" VerticalAlignment="Top" Width="93" Height="24" Click="BtnLogout_Click"/>
 
+
     </Grid>
 </Page>
