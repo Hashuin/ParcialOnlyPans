@@ -36,5 +36,13 @@ namespace OnlyPans
             lstPrecio.Items.Add("Pan no Aliñado= 500");
             lstPrecio.Items.Add("Pan Especial = 2000");
         }
+
+
+
+        private void BtnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new UserControl1());
+        }
+
     }
 }

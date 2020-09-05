@@ -15,14 +15,17 @@
                 <GradientStop Color="#FFFF9898" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Frame Content="Frame" HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="800" Visibility="Hidden"/>
+        <Frame Content="Frame" HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="800" Visibility="Hidden" NavigationUIVisibility="Hidden"/>
         <Image Source="OnlyPans.jpg" Stretch="UniformToFill"/>
         <Label Content="Panel Administrativo" HorizontalAlignment="Left" Margin="243,10,0,0" VerticalAlignment="Top" Width="343" FontSize="36"/>
-        <Rectangle Fill="White" HorizontalAlignment="Left" Height="198" Margin="10,99,0,0" Stroke="Black" VerticalAlignment="Top" Width="212"/>
-        <Label Name="txtVent" Content="Ventas Totales" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top"/>
-        <Rectangle Fill="White" HorizontalAlignment="Left" Height="198" Margin="310,99,0,0" Stroke="Black" VerticalAlignment="Top" Width="161"/>
-        <Label Content="Precio Producto&#xD;&#xA;" HorizontalAlignment="Left" Margin="310,99,0,0" VerticalAlignment="Top"/>
-        <ListBox HorizontalAlignment="Left" Height="140" Margin="323,141,0,0" VerticalAlignment="Top" Width="132" Name="lstPrecio" Loaded="LstPrecio_Loaded"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="198" Margin="537,99,0,0" Stroke="Black" VerticalAlignment="Top" Width="212"/>
+        <Label Name="txtVent" Content="Ventas Totales" HorizontalAlignment="Left" Margin="537,99,0,0" VerticalAlignment="Top"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="198" Margin="64,99,0,0" Stroke="Black" VerticalAlignment="Top" Width="161"/>
+        <Label Content="Precio Producto&#xD;&#xA;" HorizontalAlignment="Left" Margin="64,99,0,0" VerticalAlignment="Top"/>
+        <ListBox HorizontalAlignment="Left" Height="140" Margin="80,141,0,0" VerticalAlignment="Top" Width="132" Name="lstPrecio" Loaded="LstPrecio_Loaded"/>
+        <Label Content="Bienvenido/a Administrador/a" HorizontalAlignment="Left" Margin="230,126,0,0" VerticalAlignment="Top" Width="302" FontWeight="Bold" FontSize="20"/>
+        <ListBox Name="vTotal" HorizontalAlignment="Left" Height="100" Margin="551,141,0,0" VerticalAlignment="Top" Width="100" Loaded="VTotal_Loaded" />
+        <Button Name="btnLogout" Content="Cerrar Sesión" HorizontalAlignment="Left" Margin="335,378,0,0" VerticalAlignment="Top" Width="93" Height="24" Click="BtnLogout_Click"/>
 
     </Grid>
 </Page>
